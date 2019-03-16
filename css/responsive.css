@@ -1,0 +1,271 @@
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/*		Tablet Layout: 768px	*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .add {
+        display: block;
+    }
+
+    .socials i {
+        font-size: 14px;
+        line-height: 32px;
+        margin-right: 9px;
+    }
+    .contact-details p {
+        line-height: 19px;
+    }
+
+    .header-top {
+        padding-top: 11px;
+    }
+    
+    .socials {
+        line-height: 50px;
+    }
+
+    .logo-area img {
+        width: 150px;
+    }
+    .banner-area {
+        padding-bottom: 105px;
+        padding-top: 19px;
+    }
+    .banner-text h1 {
+        font-size: 33px;
+    }
+   .banner-text p {
+    font-size: 15px;
+}
+    .nav-area li {
+        margin-right: 7px;
+        font-size: 13px;
+    }
+    .banner-bottom-item img {
+        margin-left: 12px;
+        width: 18%;
+    }
+    .banner-bottom-detail h4 {
+        font-size: 17px;
+    }
+    .banner-bottom-detail p {
+        font-size: 11px;
+    }
+    .banner-bottom-item {
+        padding: 26px 2px;
+
+    }
+    .banner-bottom-detail {
+        margin-left: 10px;
+    }
+    .emergency-call-left .detail h4 {
+        font-size: 18px;
+    }
+    .emergency-call-left img {
+        width: 25%;
+        top: -12px;
+    }
+
+    .emergency-call-left p {
+        font-size: 12px;
+    }
+    .emergency-call-right .detail h4 {
+        font-size: 28px;
+    }
+    .emergency-call-right img {
+
+        width: 15%;
+    }
+    .emergency-call-left .detail {
+        margin-left: 110px;
+    }
+    .emergency-call-right,
+    .emergency-call-left {
+        padding-top: 14px;
+        padding-bottom: 50px;
+        margin-left: 15px;
+    }
+    .emergency-call-left {
+        padding-left: 0px;
+
+    }
+    .experince .detail h1 {
+        font-size: 61px;
+    }
+    .header-text p:first-of-type {
+        font-size: 17px;
+    }
+    .header-text p:last-of-type {
+        font-size: 22px;
+    }
+    .experince .detail img {
+        width: 24%;
+        margin-left: 0;
+    }
+    .header-text:last-of-type p {
+        font-size: 13px;
+    }
+    .experince .detail li {
+        line-height: 22px;
+    }
+    .experince .detail ul {
+        font-size: 15px;
+    }
+    .experince .detail a {
+
+        font-size: 15px;
+        line-height: 36px;
+        width: 126px;
+    }
+
+    .experince .pr img {
+        height: 241px;
+    }
+    .project-single h4 {
+    font-size: 20px;
+}
+}
+
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+
+
+.nav-area {
+    background: #0675b3 none repeat scroll 0 0;
+    float: none;
+    padding: 0px 19px;
+    display: none;
+    margin-top: 135px;
+}
+.nav-area li {
+    display: block;
+    margin-top: 15px;
+}
+
+
+    .header-bottom button {
+        float: right;
+        display: block;
+         height: 38px;
+    }
+    
+
+    .call-area {
+        display: none;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .logo-area img {
+    width: 27%;
+    display: abso;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+}
+
+    .logo-area {
+        display: inline-block;
+        float: none;
+    }
+    
+        .nav-area li a {
+    color: #fff;
+}
+    
+    .header-bottom{
+        background: #0675b3;
+    }
+    .banner-text h1 {
+    font-size: 30px;
+}
+    .banner-text p {
+    font-size: 20px;
+}
+    .pr{
+        padding-right: 15px;
+    }
+    
+    .pl{
+        padding-left:15px;
+    }
+    .service-detail img {
+    margin-top: -33px;
+}
+    .service-plumber {
+    display: none;
+}
+    .emergency-call {
+    background:none;
+  
+}
+    .emergency-call-left {
+    padding: 24px;
+    background: #0675b3;
+}
+    .emergency-call-left .detail {
+
+     margin-left: 0; 
+}
+    .emergency-call-right {
+    background: #e97e46;
+}
+    .emergency-call-left img {
+    display: none;
+}
+    .emergency-call-left .detail h4 {
+    font-size: 22px;
+}
+    .emergency-call-right img {
+        width: 12%;
+
+}
+    .emergency-call-right .detail h4 {
+    font-size: 33px;
+}
+    .header-text:last-of-type p {
+    font-size: 15px;
+    margin-left: 0;
+}
+    .experince .detail ul {
+    margin-top: 19px;
+}
+    .experince .detail img {
+     margin-left: 0; 
+    width: 28%;
+}
+    
+
+    
+}
+
+
+/*		Wide Mobile Layout: 480px.    */
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+ 
+ /*   .header-bottom{
+        background: #0675b3;
+    }
+    */
+    
+}
+
+
+
+/* Custom layout */
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    ul.nav-area {
+        display: block !important;
+    }
+}
